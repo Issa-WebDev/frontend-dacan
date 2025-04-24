@@ -10,5 +10,162 @@
   "all_rights_reserved": "All Rights Reserved.",
   "hero_title": "Your Partner for Logistics, Industrial Equipment and Services",
   "hero_desc": "Welcome to DACAN, an Ivorian company committed to providing reliable solutions in transport, logistics, machine rental and specialized equipment supply.",
-  "hero_btn": "Discover Our Services"
+  "hero_btn": "Discover Our Services",
+  "services_title": "Our Services",
+  "services_desc": "At DACAN, we offer a diversified range that meets the technical and logistical needs of modern companies. Each department has its own specialized expertise.",
+  "learn": "Learn More →",
+  "view_all_services": "View All Services",
+  "transport_title": "Transport & Logistics",
+  "transport_desc": "Customized transport and logistics solutions supporting you in all your logistics needs with a smooth, secure and punctual transport of your goods.",
+  "spare_parts_title": "Vehicle Spare Parts",
+  "spare_parts_desc": "Reliable parts for your vehicles, delivered on time. We provide a wide choice of original or compatible spare parts for maintenance and repair.",
+  "rental_title": "Vehicle & Machinery Rental",
+  "rental_desc": "Rent according to your needs, gain efficiency. We offer the flexibility you need through our commercial vehicle and specialized machinery rental service.",
+  "fire_protection_title": "Fire & Protection Equipment",
+  "fire_protection_desc": "Secure your teams and premises with certified personal protective equipment (PPE) and fire safety systems that meet regulatory requirements.",
+  "welding_title": "Industrial & Medical Welding",
+  "welding_desc": "Technology for your operations. We provide professionals with high-performance welding equipment adapted to their standards and business requirements.",
+  "real_estate_title": "Commercial & Real Estate Services",
+  "real_estate_desc": "A global support for all your projects with cross-cutting services in relation to logistics support, commercial representation and real estate operations.",
+  "address": "Cocody Angré Djrogobité, Abidjan",
+  "phone": "+225 07 0123 4567",
+  "email": "contact@dacan-ci.com",
+  "impact_title": "Our Impact in Numbers",
+  "impact_text": "Discover how DACAN has grown to become a trusted partner for businesses across Ivory Coast.",
+  "impact_clients": "Satisfied Clients",
+  "impact_vehicles": "Vehicles in Fleet",
+  "impact_services": "Service Categories",
+  "impact_support": "Customer Support",
+  "contact_title": "Ready to work with us?",
+  "contact_text": "Every client is unique. At DACAN, our rates adapt to your needs and business nature. Contact us for a personalized, quick, and commitment-free quote.",
+  "contact_quote": "Request a Quote",
+  "contact_us": "Contact Us",
+  "contact_placeholder": "[Client Testimonial or Image Will Go Here]",
+  "services_title_main": "Our Service Categories",
+  "services_text_main": "Explore our comprehensive range of services designed to meet all your business needs. For each service, we focus on quality, reliability, and customer satisfaction.",
+  "benefits_title": "Your Benefits",
+  "transport_text": "DACAN supports you in all your logistics needs, ensuring a smooth, secure and punctual transport of your goods. We serve the entire national territory with an adapted fleet of vehicles and an experienced logistics team.",
+  "transport_1": "National transport (goods, equipment, industrial parcels)",
+  "transport_2": "Inter-city and inter-company delivery",
+  "transport_3": "Real-time tracking of shipments",
+  "transport_4": "Flow management and supply chain optimization",
+  "benefit_1": "Responsiveness and punctuality",
+  "benefit_2": "Professional tracking of your shipments",
+  "benefit_3": "Clear and flexible pricing",
+  "benefit_4": "National coverage",
+  "transport_link": "Request Quote for Transport & Logistics",
+
+  "spare_title": "Vehicle Spare Parts",
+  "spare_text": "We provide professionals with a wide choice of original or compatible spare parts for the maintenance and repair of their vehicles. Whether it is a company fleet or specific equipment, we guarantee quality and availability.",
+  "spare_1": "Engines, filters, brake pads, belts",
+  "spare_2": "Parts for trucks and commercial vehicles",
+  "spare_3": "Miscellaneous accessories and technical components",
+  "spare_benefit_1": "Certified products",
+  "spare_benefit_2": "Technical advisory service",
+  "spare_benefit_3": "Fast delivery",
+  "spare_benefit_4": "Competitive pricing",
+  "spare_link": "Request Quote for Vehicle Spare Parts",
+
+  "rental_text": "DACAN offers the flexibility you need for your operations through its commercial vehicle and specialized machinery rental service. For a day, a week or more, choose the right equipment at the right time.",
+  "rental_1": "Commercial vehicles (vans, trucks)",
+  "rental_2": "Construction machinery (graders, compactors, etc.)",
+  "rental_3": "Technical equipment by sector of activity",
+  "rental_benefit_1": "Fleet maintained and ready for use",
+  "rental_benefit_2": "Competitive rates with or without driver",
+  "rental_benefit_3": "Assistance during the rental period",
+  "rental_benefit_4": "Flexible rental duration",
+  "rental_link": "Request Quote for Vehicle & Machinery Rental",
+
+  "protection_title": "Fire & Protection Equipment",
+  "protection_text": "To meet regulatory requirements and protect your employees, DACAN provides certified personal protective equipment (PPE) and fire safety systems.",
+  "protection_1": "Helmets, gloves, shoes, suits",
+  "protection_2": "Fire extinguishers, smoke detectors, fire blankets",
+  "protection_3": "First aid kits and evacuation devices",
+  "protection_benefit_1": "Products in accordance with current standards",
+  "protection_benefit_2": "Support for the security of your facilities",
+  "protection_benefit_3": "Complete range of safety solutions",
+  "protection_link": "Request Quote for Fire & Protection Equipment",
+  "welding_text": "We provide professionals in the industrial and medical sector with high-performance welding equipment, adapted to their standards and business requirements.",
+  "welding_1": "Welding generators",
+  "welding_2": "Electrodes, cables, torches, clamps",
+  "welding_3": "Sterile medical welding equipment",
+  "welding_benefit_1": "Products of recognized brands",
+  "welding_benefit_2": "Quick availability",
+  "welding_benefit_3": "Installation assistance (on request)",
+  "welding_benefit_4": "Technical support",
+  "welding_link": "Request Quote for Industrial & Medical Welding",
+
+  "realestate_title": "Commercial & Real Estate Services",
+  "realestate_text": "DACAN also offers cross-cutting services in relation to its core business: financial, commercial or real estate operations, directly or in partnership with specialised players.",
+  "realestate_1": "Logistics support for professional events",
+  "realestate_2": "Commercial representation or transit services",
+  "realestate_3": "Intermediation for acquisition/lease of land and warehouses",
+  "realestate_benefit_1": "360° vision of your needs",
+  "realestate_benefit_2": "One contact for several services",
+  "realestate_benefit_3": "Trusted partners",
+  "realestate_benefit_4": "Integrated solutions",
+  "realestate_link": "Request Quote for Commercial & Real Estate Services",
+
+  "advantage": {
+    "title": "The DACAN Advantage",
+    "subtitle": "Choose DACAN for comprehensive solutions that give your business a competitive edge.",
+    "cards": {
+      "time": {
+        "title": "Time Efficiency",
+        "text": "We understand the importance of time in business operations and ensure fast, punctual service delivery."
+      },
+      "quality": {
+        "title": "Quality Assurance",
+        "text": "All our products and services meet high-quality standards, giving you peace of mind."
+      },
+      "cost": {
+        "title": "Cost Effectiveness",
+        "text": "Our solutions are designed to optimize your budget while maximizing operational efficiency."
+      },
+      "support": {
+        "title": "Technical Support",
+        "text": "Our experienced team provides ongoing technical advice and assistance whenever needed."
+      }
+    }
+  },
+
+  "servicesHero": {
+    "title": "Our Services",
+    "text": "At DACAN, we offer a diversified range that meets the technical and logistical needs of modern companies. Each department has its own detailed expertise to provide you with tailor-made, efficient and secure solutions.",
+    "button": "Request a Quote"
+  },
+  "servicesFooter": {
+    "title": "Need a Custom Solution?",
+    "text": "Our team is ready to develop tailored solutions for your specific business challenges. Contact us today to discuss how we can support your operations.",
+    "contact": "Contact Our Team",
+    "quote": "Get a Quote"
+  },
+  "aboutHero": {
+    "title": "About DACAN",
+    "text": "Discover our journey, values, and commitment to supporting businesses across Côte d'Ivoire."
+  },
+  "aboutFooter": {
+    "title": "Ready to Work With Us?",
+    "text": "Each client is unique. At DACAN, our rates adapt to your needs and the nature of your business. Contact us for a personalized quote, fast and without commitment.",
+    "contact": "Contact Us",
+    "discover": "Discover Our Services"
+  },
+  "aboutFuture": {
+    "title": "Looking to the Future",
+    "text": "As we continue to grow, our focus remains on expanding our capabilities, enhancing our service offerings, and building stronger relationships with our clients and partners.",
+    "cards": {
+      "service": {
+        "title": "Service Expansion",
+        "text": "We are continuously expanding our service portfolio to meet the evolving needs of businesses across various sectors in Ivory Coast."
+      },
+      "reach": {
+        "title": "Geographic Reach",
+        "text": "Our plans include extending our operational coverage to serve more regions and communities throughout the country."
+      },
+      "tech": {
+        "title": "Technology Integration",
+        "text": "We're investing in advanced technologies to enhance our operational efficiency and provide better services to our clients."
+      }
+    }
+  }
 }

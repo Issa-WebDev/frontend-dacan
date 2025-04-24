@@ -1,15 +1,15 @@
+import ContactSection from "../components/ContactSection";
 import Hero from "../components/Hero";
+import ImpactSection from "../components/ImpactSection";
 import ServicesSection from "../components/ServicesSection";
-// import AboutPreview from "../components/AboutPreview";
-// import QuoteBanner from "../components/QuoteBanner";
 
 const Accueil = () => {
   return (
     <main>
       <Hero />
       <ServicesSection />
-      {/* <AboutPreview />
-      <QuoteBanner /> */}
+      <ImpactSection />
+      <ContactSection />
     </main>
   );
 };

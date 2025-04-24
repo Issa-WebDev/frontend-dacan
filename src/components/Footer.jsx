@@ -1,21 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { Globe2, Facebook, Linkedin } from "lucide-react";
+import { Facebook } from "lucide-react";
 import logo from "../assets/logo.png";
-import { useState, useEffect } from "react";
 
 const Footer = () => {
-  const { t, i18n } = useTranslation();
-  const [lang, setLang] = useState(i18n.language || "fr");
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-    setLang(lng);
-  };
-
-  useEffect(() => {
-    setLang(i18n.language);
-  }, [i18n.language]);
+  const { t } = useTranslation();
 
   return (
     <footer className="bg-[#1A1F2C] text-white py-12">
@@ -28,16 +17,10 @@ const Footer = () => {
             </div>
             <span className="text-xl font-semibold">DACAN</span>
           </div>
-          <p className="text-sm text-gray-300">
-            {t("footer_description") ||
-              "Your partner for logistics, industrial equipment and services."}
-          </p>
+          <p className="text-sm text-gray-300">{t("footer_description")}</p>
           <div className="flex space-x-3">
             <a href="#" className="hover:text-[#FFA500]">
               <Facebook size={20} />
-            </a>
-            <a href="#" className="hover:text-[#FFA500]">
-              <Linkedin size={20} />
             </a>
           </div>
         </div>
@@ -46,18 +29,16 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-3">{t("services")}</h3>
           <ul className="space-y-4 text-sm text-gray-300">
-            <li>Transport & Logistics</li>
-            <li>Vehicle Spare Parts</li>
-            <li>Vehicle & Machinery Rental</li>
-            <li>Protection Equipment</li>
+            <li>{t("transport_title")}</li>
+            <li>{t("spare_parts_title")}</li>
+            <li>{t("rental_title")}</li>
+            <li>{t("fire_protection_title")}</li>
           </ul>
         </div>
 
         {/* Entreprise */}
         <div className="space-y-4">
-          <h3 className="text-lg font-semibold mb-3">
-            {t("entreprise") || "Entreprise"}
-          </h3>
+          <h3 className="text-lg font-semibold mb-3">{t("entreprise")}</h3>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>
               <Link to="/a-propos">{t("a_propos")}</Link>
@@ -69,28 +50,23 @@ const Footer = () => {
               <Link to="/devis">{t("devis")}</Link>
             </li>
             <li>
-              <Link to="/legal">
-                {t("mentions_legales") || "Mentions légales"}
-              </Link>
+              <Link>{t("mentions_legales")}</Link>
             </li>
           </ul>
         </div>
 
         {/* Contact */}
         <div className="space-y-4 text-sm text-gray-300">
-          <h3 className="text-lg font-semibold mb-3">{t("contact")}</h3>
-          <p>Cocody Angré Djrogobité, Abidjan</p>
-          <p>+225 07 0123 4567</p>
-          <p>contact@dacan-ci.com</p>
+          <h3 className="text-lg font-semibold mb-3 text-white">{t("contact")}</h3>
+          <p>{t("address")}</p>
+          <p>{t("phone")}</p>
+          <p>{t("email")}</p>
         </div>
       </div>
 
       {/* Copyright */}
-
       <div className="mt-20 text-center text-xs text-gray-400">
-        <hr className="mb-10" />
-		© 2025 DACAN.{" "}
-        {t("all_rights_reserved") || "Tous droits réservés."}
+        <hr className="mb-10" />© 2025 DACAN. {t("all_rights_reserved")}
       </div>
     </footer>
   );

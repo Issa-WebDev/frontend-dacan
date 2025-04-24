@@ -29,12 +29,12 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <header className="shadow-md w-full bg-white">
+    <header className="shadow-md w-full fixed top-0 left-0 right-0 z-100 bg-white">
       <nav className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2">
           <img src={logo} alt="Logo" className="h-10 w-10" />
-          <span className="text-[#1A1F2C] text-xl font-semibold">DACAN</span>
+          <span className="text-[#1a316b] text-xl font-semibold">DACAN</span>
         </Link>
 
         {/* Menu desktop */}
@@ -43,7 +43,7 @@ const Navbar = () => {
             <Link
               key={path}
               to={path}
-              className={`text-[#1A1F2C] hover:text-[#FFA500] transition-colors ${
+              className={`text-[#1a316b] hover:text-[#FFA500] transition-colors ${
                 location.pathname === path ? "text-[#FFA500]" : ""
               }`}
             >
@@ -70,7 +70,7 @@ const Navbar = () => {
         </div>
 
         {/* Toggle button */}
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
+        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden cursor-pointer">
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </nav>

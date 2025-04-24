@@ -10,6 +10,162 @@
   "all_rights_reserved": "Tous droits réservés.",
   "hero_title": "Votre partenaire pour la logistique, l'équipement industriel et les services",
   "hero_desc": "Bienvenue chez DACAN, une entreprise ivoirienne engagée à fournir des solutions fiables en matière de transport, logistique, location de machines et fourniture d'équipements spécialisés.",
-  "hero_btn": "Découvrir nos services"
+  "hero_btn": "Découvrir nos services",
+  "services_title": "Nos Services",
+  "services_desc": "Chez DACAN, nous proposons une gamme diversifiée qui répond aux besoins techniques et logistiques des entreprises modernes. Chaque département possède une expertise spécialisée.",
+  "learn": "En savoir plus →",
+  "view_all_services": "Voir tous les services",
+  "transport_title": "Transport & Logistique",
+  "transport_desc": "Des solutions de transport et de logistique personnalisées pour vous accompagner dans tous vos besoins logistiques avec un transport fluide, sécurisé et ponctuel de vos marchandises.",
+  "spare_parts_title": "Pièces Détachées pour Véhicules",
+  "spare_parts_desc": "Des pièces fiables pour vos véhicules, livrées à temps. Nous proposons un large choix de pièces détachées d’origine ou compatibles pour l’entretien et la réparation.",
+  "rental_title": "Location de Véhicules & Machines",
+  "rental_desc": "Louez selon vos besoins, gagnez en efficacité. Nous offrons la flexibilité nécessaire grâce à notre service de location de véhicules utilitaires et de machines spécialisées.",
+  "fire_protection_title": "Équipements de Protection & Incendie",
+  "fire_protection_desc": "Sécurisez vos équipes et locaux avec des équipements de protection individuelle (EPI) certifiés et des systèmes de sécurité incendie conformes aux normes.",
+  "welding_title": "Soudure Industrielle & Médicale",
+  "welding_desc": "La technologie au service de vos opérations. Nous fournissons aux professionnels des équipements de soudure performants adaptés à leurs normes et exigences métier.",
+  "real_estate_title": "Services Commerciaux & Immobiliers",
+  "real_estate_desc": "Un accompagnement global pour tous vos projets avec des services transversaux liés au support logistique, à la représentation commerciale et aux opérations immobilières.",
+  "address": "Cocody Angré Djrogobité, Abidjan",
+  "phone": "+225 07 0123 4567",
+  "email": "contact@dacan-ci.com",
+  "impact_title": "Notre impact en chiffres",
+  "impact_text": "Découvrez comment DACAN est devenu un partenaire de confiance pour les entreprises en Côte d'Ivoire.",
+  "impact_clients": "Clients satisfaits",
+  "impact_vehicles": "Véhicules en flotte",
+  "impact_services": "Catégories de services",
+  "impact_support": "Support client 24/7",
+  "contact_title": "Prêt à travailler avec nous ?",
+  "contact_text": "Chaque client est unique. Chez DACAN, nos tarifs s'adaptent à vos besoins et à la nature de votre activité. Contactez-nous pour un devis personnalisé, rapide et sans engagement.",
+  "contact_quote": "Demander un devis",
+  "contact_us": "Contactez-nous",
+  "contact_placeholder": "[Témoignage client ou image ici]",
+  "services_title_main": "Nos Catégories de Services",
+  "services_text_main": "Découvrez notre gamme complète de services conçus pour répondre à tous vos besoins professionnels. Pour chaque service, nous mettons l'accent sur la qualité, la fiabilité et la satisfaction client.",
+  "benefits_title": "Vos Avantages",
+  "transport_text": "DACAN vous accompagne dans tous vos besoins logistiques, en assurant un transport fluide, sécurisé et ponctuel de vos marchandises. Nous desservons l’ensemble du territoire national avec une flotte adaptée et une équipe logistique expérimentée.",
+  "transport_1": "Transport national (marchandises, équipements, colis industriels)",
+  "transport_2": "Livraison inter-villes et inter-entreprises",
+  "transport_3": "Suivi des expéditions en temps réel",
+  "transport_4": "Gestion des flux et optimisation de la chaîne logistique",
+  "benefit_1": "Réactivité et ponctualité",
+  "benefit_2": "Suivi professionnel de vos expéditions",
+  "benefit_3": "Tarification claire et flexible",
+  "benefit_4": "Couverture nationale",
+  "transport_link": "Demander un devis Transport & Logistique",
 
+  "spare_title": "Pièces Détachées Véhicules",
+  "spare_text": "Nous proposons aux professionnels un large choix de pièces détachées d’origine ou compatibles pour l’entretien et la réparation de leurs véhicules. Qu’il s’agisse d’une flotte ou d’un équipement spécifique, nous garantissons qualité et disponibilité.",
+  "spare_1": "Moteurs, filtres, plaquettes de frein, courroies",
+  "spare_2": "Pièces pour camions et véhicules utilitaires",
+  "spare_3": "Accessoires divers et composants techniques",
+  "spare_benefit_1": "Produits certifiés",
+  "spare_benefit_2": "Service de conseil technique",
+  "spare_benefit_3": "Livraison rapide",
+  "spare_benefit_4": "Tarifs compétitifs",
+  "spare_link": "Demander un devis Pièces Détachées",
+
+  "rental_text": "DACAN vous offre la flexibilité nécessaire à vos opérations à travers son service de location de véhicules utilitaires et engins spécialisés. Pour un jour, une semaine ou plus, choisissez l’équipement adapté au bon moment.",
+  "rental_1": "Véhicules utilitaires (fourgonnettes, camions)",
+  "rental_2": "Engins de chantier (niveleuses, compacteurs, etc.)",
+  "rental_3": "Équipements techniques par secteur d’activité",
+  "rental_benefit_1": "Flotte entretenue et prête à l’emploi",
+  "rental_benefit_2": "Tarifs compétitifs avec ou sans chauffeur",
+  "rental_benefit_3": "Assistance durant la période de location",
+  "rental_benefit_4": "Durée de location flexible",
+  "rental_link": "Demander un devis Location Engins",
+
+  "protection_title": "Équipements de Protection & Incendie",
+  "protection_text": "Pour répondre aux obligations réglementaires et protéger vos collaborateurs, DACAN fournit des équipements de protection individuelle (EPI) certifiés et des systèmes de sécurité incendie.",
+  "protection_1": "Casques, gants, chaussures, combinaisons",
+  "protection_2": "Extincteurs, détecteurs de fumée, couvertures anti-feu",
+  "protection_3": "Trousses de secours et dispositifs d’évacuation",
+  "protection_benefit_1": "Produits conformes aux normes en vigueur",
+  "protection_benefit_2": "Accompagnement pour la sécurité de vos locaux",
+  "protection_benefit_3": "Gamme complète de solutions de sécurité",
+  "protection_link": "Demander un devis Équipements Incendie",
+
+  "welding_text": "Nous fournissons aux professionnels des secteurs industriels et médicaux du matériel de soudure performant, conforme à leurs normes et exigences.",
+  "welding_1": "Groupes de soudage",
+  "welding_2": "Électrodes, câbles, torches, pinces",
+  "welding_3": "Matériel de soudure médical stérile",
+  "welding_benefit_1": "Produits de marques reconnues",
+  "welding_benefit_2": "Disponibilité rapide",
+  "welding_benefit_3": "Assistance à l’installation (sur demande)",
+  "welding_benefit_4": "Support technique",
+  "welding_link": "Demander un devis Soudure",
+
+  "realestate_title": "Services Commerciaux & Immobiliers",
+  "realestate_text": "DACAN propose aussi des services transversaux liés à son cœur de métier : opérations financières, commerciales ou immobilières, en direct ou avec des partenaires spécialisés.",
+  "realestate_1": "Support logistique pour événements professionnels",
+  "realestate_2": "Représentation commerciale ou transit",
+  "realestate_3": "Intermédiation pour acquisition/location de terrains et entrepôts",
+  "realestate_benefit_1": "Vision à 360° de vos besoins",
+  "realestate_benefit_2": "Un interlocuteur pour plusieurs services",
+  "realestate_benefit_3": "Partenaires de confiance",
+  "realestate_benefit_4": "Solutions intégrées",
+  "realestate_link": "Demander un devis Services Immobiliers",
+
+  "advantage": {
+    "title": "L'Avantage DACAN",
+    "subtitle": "Choisissez DACAN pour des solutions complètes qui donnent un avantage concurrentiel à votre entreprise.",
+    "cards": {
+      "time": {
+        "title": "Efficacité Temporelle",
+        "text": "Nous comprenons l'importance du temps dans les opérations commerciales et garantissons un service rapide et ponctuel."
+      },
+      "quality": {
+        "title": "Assurance Qualité",
+        "text": "Tous nos produits et services respectent des normes de qualité élevées, vous garantissant une tranquillité d'esprit."
+      },
+      "cost": {
+        "title": "Efficacité des Coûts",
+        "text": "Nos solutions sont conçues pour optimiser votre budget tout en maximisant l'efficacité opérationnelle."
+      },
+      "support": {
+        "title": "Support Technique",
+        "text": "Notre équipe expérimentée fournit des conseils et une assistance technique continue à tout moment."
+      }
+    }
+  },
+  "servicesHero": {
+    "title": "Nos Services",
+    "text": "Chez DACAN, nous proposons une gamme diversifiée répondant aux besoins techniques et logistiques des entreprises modernes. Chaque service dispose d’une expertise détaillée pour vous fournir des solutions sur mesure, efficaces et sécurisées.",
+    "button": "Demander un devis"
+  },
+  "servicesFooter": {
+    "title": "Besoin d’une solution sur mesure ?",
+    "text": "Notre équipe est prête à développer des solutions adaptées à vos défis professionnels spécifiques. Contactez-nous dès aujourd’hui pour discuter de la manière dont nous pouvons soutenir vos opérations.",
+    "contact": "Contacter notre équipe",
+    "quote": "Demander un devis"
+  },
+  "aboutHero": {
+    "title": "À propos de DACAN",
+    "text": "Découvrez notre parcours, nos valeurs et notre engagement à soutenir les entreprises à travers la Côte d'Ivoire."
+  },
+  "aboutFooter": {
+    "title": "Prêt à travailler avec nous ?",
+    "text": "Chaque client est unique. Chez DACAN, nos tarifs s'adaptent à vos besoins et à la nature de votre activité. Contactez-nous pour un devis personnalisé, rapide et sans engagement.",
+    "contact": "Contactez-nous",
+    "discover": "Découvrez nos services"
+  },
+  "aboutFuture": {
+    "title": "Regard vers l'avenir",
+    "text": "À mesure que nous grandissons, notre priorité reste d'élargir nos capacités, d'améliorer nos services et de renforcer nos relations avec nos clients et partenaires.",
+    "cards": {
+      "service": {
+        "title": "Expansion des services",
+        "text": "Nous élargissons continuellement notre portefeuille de services pour répondre aux besoins évolutifs des entreprises de divers secteurs en Côte d'Ivoire."
+      },
+      "reach": {
+        "title": "Portée géographique",
+        "text": "Nos projets incluent l'extension de notre couverture opérationnelle pour desservir davantage de régions et de communautés dans tout le pays."
+      },
+      "tech": {
+        "title": "Intégration technologique",
+        "text": "Nous investissons dans des technologies avancées pour améliorer notre efficacité opérationnelle et offrir de meilleurs services à nos clients."
+      }
+    }
+  }
 }
