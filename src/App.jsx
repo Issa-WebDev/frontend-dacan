@@ -7,10 +7,13 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import "./i18n"; // pour init i18n
 import Footer from "./components/Footer";
+import ScrollToTop from "../ScrollToTop";
+import ScrollToTopBtn from "./components/ScrollToTopBtn";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Accueil />} />
@@ -20,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <ScrollToTopBtn />
     </Router>
   );
 }
