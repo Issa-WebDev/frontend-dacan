@@ -167,5 +167,157 @@
         "text": "We're investing in advanced technologies to enhance our operational efficiency and provide better services to our clients."
       }
     }
+  },
+  "aboutValue": {
+    "title": "Our Core Values",
+    "text": "These principles guide our operations and interactions with clients, partners, and communities.",
+    "cards": {
+      "expertise": {
+        "title": "Expertise",
+        "text": "Our qualified and experienced team brings deep knowledge and skills to every project we undertake."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "text": "We constantly seek modern and scalable solutions to meet our clients' evolving needs."
+      },
+      "proximity": {
+        "title": "Proximity",
+        "text": "We offer human-centered support, carefully listening to understand our partners' unique needs."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "text": "We take pride in our consistent and dependable service delivery that our clients can count on."
+      }
+    }
+  },
+  "who": {
+    "title": "Who Are We",
+    "p1": "Founded in Abidjan, DACAN is a single-member limited liability company (SARLU) with a share capital of 1,000,000 CFA francs. We support businesses in their logistical, technical, and operational challenges with a clear vision: to support performance through reliability and quality.",
+    "p2": "Since our inception, we have become a trusted partner for companies across Côte d'Ivoire, providing comprehensive solutions in transport, logistics, equipment supply, and specialized services.",
+    "p3": "Our team combines expertise with a client-focused approach, ensuring that every customer receives personalized attention and solutions tailored to their specific needs."
+  },
+  "visionMission": {
+    "visionTitle": "Our Vision",
+    "visionText": "To be the leading provider of integrated logistics and industrial solutions in Ivory Coast, recognized for excellence, innovation, and customer satisfaction.",
+    "missionTitle": "Our Mission",
+    "missionText": "To deliver reliable, efficient, and personalized solutions that help our clients overcome operational challenges and achieve their business objectives."
+  },
+  "personalQuote": {
+    "title": "Your Personalized Quote",
+    "text": "Fill out the form with your specific requirements, and our team will prepare a detailed quote tailored to your needs.",
+    "fastTitle": "Fast Response",
+    "fastText": "We aim to respond to all quote requests within 24 hours during business days.",
+    "noObligationTitle": "No Obligation",
+    "noObligationText": "Our quotes are provided free of charge with no commitment required.",
+    "transparentTitle": "Transparent Pricing",
+    "transparentText": "We provide clear breakdown of costs with no hidden fees or charges.",
+    "fullName": "Full Name",
+    "yourName": "Your name",
+    "companyName": "Company Name",
+    "yourCompany": "Your company",
+    "email": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Your phone number",
+    "serviceType": "Service Type",
+    "selectService": "Select a service type",
+    "description": "Description of Need",
+    "descriptionPlaceholder": "Please describe your requirements in detail...",
+    "getQuote": "Get Quote",
+    "serviceOptions": {
+      "transport": "Transport & Logistics",
+      "spareParts": "Vehicle Spare Parts",
+      "rental": "Vehicle & Machinery Rental",
+      "fireProtection": "Fire & Protection Equipment",
+      "welding": "Industrial & Medical Welding",
+      "realEstate": "Commercial & Real Estate Services",
+      "others": "Others",
+      "selected": "Selected"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "description": "Find answers to common questions about our quote process and services.",
+    "questions": {
+      "q1": {
+        "title": "How soon can I expect to receive my quote?",
+        "text": "In most cases, we provide quotes within 24 business hours. For complex requests, it may take up to 48 hours."
+      },
+      "q2": {
+        "title": "Is there a fee for requesting a quote?",
+        "text": "No, all of our quotes are provided free of charge and with no obligation."
+      },
+      "q3": {
+        "title": "What information do I need to provide for an accurate quote?",
+        "text": "The more details you can provide about your requirements, the more accurate our quote will be. Key information includes service type, quantities, locations, and timeframes."
+      },
+      "q4": {
+        "title": "Can quotes be adjusted if my requirements change?",
+        "text": "Yes, we understand that needs can change. Contact us with your updated requirements, and we'll revise your quote accordingly."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "description": "Getting a quote from DACAN is quick and straightforward. Here's our simple three-step process:",
+    "steps": {
+      "step1": {
+        "title": "Submit Request",
+        "text": "Fill out our detailed form with your specific requirements and service needs."
+      },
+      "step2": {
+        "title": "Quick Assessment",
+        "text": "Our team reviews your request and prepares a customized pricing proposal."
+      },
+      "step3": {
+        "title": "Personalized Quote",
+        "text": "Receive your detailed quote and discuss any adjustments needed with our specialists."
+      }
+    }
+  },
+
+  "devisHeader": {
+    "title": "Request a Quote",
+    "text": "Each client is unique. At DACAN, our rates adapt to your needs and the nature of your business. Contact us for a personalized quote, fast and without commitment."
+  },
+
+  "contactHeader": {
+    "title": "Contact Us",
+    "text": "You have a question? A project in progress? Our team is ready to help you with any inquiries about our services, quotes, or how we can support your business."
+  },
+  "contactData": {
+    "phone": "Phone",
+    "callUs": "Call Us",
+    "email": "Email",
+    "emailUs": "Email Us",
+    "address": "Address",
+    "viewMap": "View on Map",
+    "hours": "Business Hours",
+    "hoursText": "Monday to Friday: 8:00 AM - 6:00 PM"
+  },
+  "location": {
+    "title": "Our Location",
+    "text": "Visit us at our office in Cocody Angré Djrogobité, Abidjan, Côte d'Ivoire."
+  },
+  "contactForm": {
+    "getInTouch": "Get In Touch",
+    "description": "Fill out the form and one of our representatives will contact you shortly to assist with your inquiry.",
+    "quickResponseTitle": "Quick Response",
+    "quickResponseText": "We respond to all inquiries within 24 business hours.",
+    "expertTeamTitle": "Expert Team",
+    "expertTeamText": "Our knowledgeable staff will address your specific needs.",
+    "followUs": "Follow Us",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Your phone number",
+    "subject": "Subject",
+    "subjectPlaceholder": "What is this regarding?",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "sendMessage": "Send Message"
   }
+
 }

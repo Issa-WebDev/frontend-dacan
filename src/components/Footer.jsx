@@ -19,7 +19,10 @@ const Footer = () => {
           </div>
           <p className="text-sm text-gray-300">{t("footer_description")}</p>
           <div className="flex space-x-3">
-            <a href="#" className="hover:text-[#FFA500]">
+            <a
+              href="https://www.facebook.com/dacanci" target="_blink"
+              className="hover:text-[#FFA500]"
+            >
               <Facebook size={20} />
             </a>
           </div>
@@ -57,7 +60,9 @@ const Footer = () => {
 
         {/* Contact */}
         <div className="space-y-4 text-sm text-gray-300">
-          <h3 className="text-lg font-semibold mb-3 text-white">{t("contact")}</h3>
+          <h3 className="text-lg font-semibold mb-3 text-white">
+            {t("contact")}
+          </h3>
           <p>{t("address")}</p>
           <p>{t("phone")}</p>
           <p>{t("email")}</p>

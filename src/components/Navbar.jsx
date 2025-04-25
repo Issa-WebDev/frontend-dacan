@@ -43,7 +43,7 @@ const Navbar = () => {
             <Link
               key={path}
               to={path}
-              className={`text-[#1a316b] hover:text-[#FFA500] transition-colors ${
+              className={`text-[#1a316b] text-sm hover:text-[#FFA500] transition-colors ${
                 location.pathname === path ? "text-[#FFA500]" : ""
               }`}
             >
@@ -97,8 +97,8 @@ const Navbar = () => {
               onChange={(e) => changeLanguage(e.target.value)}
               className="bg-transparent outline-none text-sm"
             >
-              <option value="fr">FR</option>
-              <option value="en">EN</option>
+              <option value="fr" className="cursor-pointer">FR</option>
+              <option value="en" className="cursor-pointer">EN</option>
             </select>
           </div>
         </div>

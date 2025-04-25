@@ -34,7 +34,7 @@ const Avantage = () => {
           {cards.map(({ icon, key }) => (
             <div
               key={key}
-              className="p-6 bg-gray-50 flex flex-col justify-center items-center rounded-lg shadow text-center"
+              className="p-6 bg-gray-100 flex flex-col justify-center items-center rounded-lg shadow text-center"
             >
               {icon}
               <h3 className="text-lg font-semibold mb-2">

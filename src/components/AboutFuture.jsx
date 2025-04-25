@@ -4,7 +4,7 @@ const AboutFuture = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-gray-50 py-16 px-4">
+    <section className="bg-gray-100 py-16 px-4">
       <div className="max-w-7xl mx-auto">
         <h2 className="md:text-3xl text-2xl text-center font-bold text-[#0e2b73] mb-4">
           {t("aboutFuture.title")}

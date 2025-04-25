@@ -167,5 +167,155 @@
         "text": "Nous investissons dans des technologies avancées pour améliorer notre efficacité opérationnelle et offrir de meilleurs services à nos clients."
       }
     }
+  },
+  "aboutValue": {
+    "title": "Nos valeurs fondamentales",
+    "text": "Ces principes guident nos opérations et interactions avec les clients, les partenaires et les communautés.",
+    "cards": {
+      "expertise": {
+        "title": "Expertise",
+        "text": "Notre équipe qualifiée et expérimentée apporte des connaissances et des compétences approfondies à chaque projet que nous entreprenons."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "text": "Nous recherchons constamment des solutions modernes et évolutives pour répondre aux besoins changeants de nos clients."
+      },
+      "proximity": {
+        "title": "Proximité",
+        "text": "Nous offrons un soutien humain, en écoutant attentivement pour comprendre les besoins uniques de nos partenaires."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "text": "Nous sommes fiers de notre prestation de services cohérente et fiable sur laquelle nos clients peuvent compter."
+      }
+    }
+  },
+  "who": {
+    "title": "Qui sommes-nous",
+    "p1": "Fondée à Abidjan, DACAN est une entreprise unipersonnelle à responsabilité limitée (SARLU) au capital social de 1 000 000 francs CFA. Nous accompagnons les entreprises dans leurs défis logistiques, techniques et opérationnels avec une vision claire : soutenir la performance par la fiabilité et la qualité.",
+    "p2": "Depuis notre création, nous sommes devenus un partenaire de confiance pour les entreprises à travers la Côte d'Ivoire, fournissant des solutions complètes en matière de transport, de logistique, de fourniture d'équipements et de services spécialisés.",
+    "p3": "Notre équipe allie expertise et approche centrée sur le client, garantissant que chaque client reçoive une attention personnalisée et des solutions adaptées à ses besoins spécifiques."
+  },
+  "visionMission": {
+    "visionTitle": "Notre Vision",
+    "visionText": "Être le principal fournisseur de solutions logistiques et industrielles intégrées en Côte d'Ivoire, reconnu pour l'excellence, l'innovation et la satisfaction client.",
+    "missionTitle": "Notre Mission",
+    "missionText": "Fournir des solutions fiables, efficaces et personnalisées qui aident nos clients à surmonter leurs défis opérationnels et à atteindre leurs objectifs commerciaux."
+  },
+  "personalQuote": {
+    "title": "Votre devis personnalisé",
+    "text": "Remplissez le formulaire avec vos besoins spécifiques, notre équipe préparera un devis détaillé adapté à vos besoins.",
+    "fastTitle": "Réponse rapide",
+    "fastText": "Nous répondons à toutes les demandes de devis sous 24 heures pendant les jours ouvrables.",
+    "noObligationTitle": "Sans engagement",
+    "noObligationText": "Nos devis sont fournis gratuitement, sans aucun engagement requis.",
+    "transparentTitle": "Tarification transparente",
+    "transparentText": "Nous fournissons une ventilation claire des coûts, sans frais cachés.",
+    "fullName": "Nom complet",
+    "yourName": "Votre nom",
+    "companyName": "Nom de l'entreprise",
+    "yourCompany": "Votre entreprise",
+    "email": "Email",
+    "emailPlaceholder": "votre.email@exemple.com",
+    "phone": "Numéro de téléphone",
+    "phonePlaceholder": "Votre numéro de téléphone",
+    "serviceType": "Type de service",
+    "selectService": "Sélectionnez un type de service",
+    "description": "Description du besoin",
+    "descriptionPlaceholder": "Veuillez décrire vos besoins en détail...",
+    "getQuote": "Obtenir un devis",
+    "serviceOptions": {
+      "transport": "Transport & Logistique",
+      "spareParts": "Pièces détachées pour véhicules",
+      "rental": "Location de véhicules & machines",
+      "fireProtection": "Équipements d'incendie & de protection",
+      "welding": "Soudure industrielle & médicale",
+      "realEstate": "Services commerciaux & immobiliers",
+      "others": "Autres",
+      "selected": "Sélectionné"
+    }
+  },
+  "faq": {
+    "title": "Foire aux questions",
+    "description": "Trouvez des réponses aux questions courantes sur notre processus de devis et nos services.",
+    "questions": {
+      "q1": {
+        "title": "Dans combien de temps puis-je recevoir mon devis ?",
+        "text": "Dans la plupart des cas, nous fournissons les devis dans un délai de 24 heures ouvrées. Pour les demandes complexes, cela peut prendre jusqu'à 48 heures."
+      },
+      "q2": {
+        "title": "Y a-t-il des frais pour demander un devis ?",
+        "text": "Non, tous nos devis sont gratuits et sans engagement."
+      },
+      "q3": {
+        "title": "Quelles informations dois-je fournir pour un devis précis ?",
+        "text": "Plus vous fournissez de détails sur vos besoins, plus notre devis sera précis. Les informations clés incluent le type de service, les quantités, les lieux et les délais."
+      },
+      "q4": {
+        "title": "Les devis peuvent-ils être ajustés si mes besoins changent ?",
+        "text": "Oui, nous comprenons que les besoins peuvent évoluer. Contactez-nous avec vos nouvelles exigences, et nous réviserons votre devis en conséquence."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "description": "Obtenir un devis de DACAN est rapide et simple. Voici notre processus en trois étapes :",
+    "steps": {
+      "step1": {
+        "title": "Soumettre une demande",
+        "text": "Remplissez notre formulaire détaillé avec vos exigences spécifiques et vos besoins en services."
+      },
+      "step2": {
+        "title": "Évaluation rapide",
+        "text": "Notre équipe examine votre demande et prépare une proposition tarifaire personnalisée."
+      },
+      "step3": {
+        "title": "Devis personnalisé",
+        "text": "Recevez votre devis détaillé et discutez des ajustements nécessaires avec nos spécialistes."
+      }
+    }
+  },
+  "devisHeader": {
+    "title": "Demander un devis",
+    "text": "Chaque client est unique. Chez DACAN, nos tarifs s’adaptent à vos besoins et à la nature de votre activité. Contactez-nous pour un devis personnalisé, rapide et sans engagement."
+  },
+
+  "contactHeader": {
+    "title": "Contactez-nous",
+    "text": "Vous avez une question ? Un projet en cours ? Notre équipe est prête à vous aider pour toute demande concernant nos services, nos devis ou la manière dont nous pouvons soutenir votre entreprise."
+  },
+  "contactData": {
+    "phone": "Téléphone",
+    "callUs": "Appelez-nous",
+    "email": "Email",
+    "emailUs": "Envoyez-nous un email",
+    "address": "Adresse",
+    "viewMap": "Voir sur la carte",
+    "hours": "Heures d'ouverture",
+    "hoursText": "Du lundi au vendredi : 8h00 - 18h00"
+  },
+  "location": {
+    "title": "Notre emplacement",
+    "text": "Visitez-nous à notre bureau à Cocody Angré Djrogobité, Abidjan, Côte d'Ivoire."
+  },
+  "contactForm": {
+    "getInTouch": "Contactez-nous",
+    "description": "Remplissez le formulaire et l’un de nos représentants vous contactera sous peu pour répondre à votre demande.",
+    "quickResponseTitle": "Réponse rapide",
+    "quickResponseText": "Nous répondons à toutes les demandes dans un délai de 24 heures ouvrables.",
+    "expertTeamTitle": "Équipe d'experts",
+    "expertTeamText": "Notre personnel compétent répondra à vos besoins spécifiques.",
+    "followUs": "Suivez-nous",
+    "fullName": "Nom complet",
+    "fullNamePlaceholder": "Votre nom",
+    "email": "Email",
+    "emailPlaceholder": "votre.email@example.com",
+    "phone": "Numéro de téléphone",
+    "phonePlaceholder": "Votre numéro de téléphone",
+    "subject": "Sujet",
+    "subjectPlaceholder": "De quoi s'agit-il ?",
+    "message": "Message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "sendMessage": "Envoyer le message"
   }
 }
