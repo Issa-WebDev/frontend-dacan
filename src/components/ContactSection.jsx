@@ -8,7 +8,7 @@ const ContactSection = () => {
     <section
       className="relative bg-cover bg-center bg-no-repeat py-20"
       style={{
-        backgroundImage: "url('/contactsection.jpg')",
+        backgroundImage: "url('/contactsection.webp')",
       }}
     >
       {/* Overlay */}
@@ -42,7 +42,12 @@ const ContactSection = () => {
 
           {/* Bloc témoignage / image */}
           <div className="h-70 overflow-hidden rounded-sm">
-            <img src="/devis.jpg" className="w-full h-full object-cover" alt="devis et contact" />
+            <img
+              src="/devis.webp"
+              loading="lazy"
+              className="w-full h-full object-cover"
+              alt="devis et contact"
+            />
           </div>
         </div>
       </div>

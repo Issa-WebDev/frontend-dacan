@@ -7,9 +7,10 @@ const ServicesHero = () => {
   return (
     <section className="relative overflow-hidden text-white py-20 px-4">
       <img
-        src="/contactsection.jpg"
+        src="/contactsection.webp"
         className="absolute w-full h-full -z-10 inset-0 object-cover"
-        alt=""
+        alt="contact"
+        loading="lazy"
       />
       {/* Overlay */}
       <div className="absolute -z-5 inset-0 bg-[#1a316b]/70"></div>

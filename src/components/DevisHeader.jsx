@@ -9,7 +9,8 @@ const DevisHeader = () => {
       <img
         src="/devisbanner.webp"
         className="absolute w-full h-full -z-10 inset-0 object-cover"
-        alt=""
+        alt="devis"
+        loading="lazy"
       />
       {/* Overlay */}
       <div className="absolute -z-5 inset-0 bg-[#1a316b]/70"></div>

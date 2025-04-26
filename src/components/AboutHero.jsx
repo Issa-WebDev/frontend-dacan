@@ -6,9 +6,10 @@ const AboutHero = () => {
   return (
     <section className="relative overflow-hidden text-white py-20 px-4">
       <img
-        src="/aboutbanner.jpg"
+        src="/aboutbanner.webp"
         className="absolute w-full h-full -z-10 inset-0 object-cover"
-        alt=""
+        alt="about"
+        loading="lazy"
       />
       {/* Overlay */}
       <div className="absolute -z-5 inset-0 bg-[#1a316b]/90"></div>

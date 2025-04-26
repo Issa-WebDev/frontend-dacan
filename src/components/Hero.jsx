@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import heroImg from "../assets/hero.jpg"; 
+import heroImg from "../assets/hero.webp"; 
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -12,6 +12,7 @@ const Hero = () => {
         src={heroImg}
         alt="DACAN Hero Background"
         className="absolute inset-0 w-full h-full object-cover object-center"
+        loading="lazy"
       />
 
       {/* Overlay avec gradient et blur */}

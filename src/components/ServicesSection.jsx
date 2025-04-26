@@ -8,7 +8,7 @@ import {
   FaBurn,
   FaBuilding,
 } from "react-icons/fa";
-import bg from "../assets/services-bg.jpg"; // ton image de fond
+import bg from "../assets/services-bg.webp"; // ton image de fond
 
 const ServicesSection = () => {
   const { t } = useTranslation();
@@ -52,6 +52,7 @@ const ServicesSection = () => {
       <img
         src={bg}
         alt="Background"
+        loading="lazy"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-white/80 backdrop-blur-sm"></div>

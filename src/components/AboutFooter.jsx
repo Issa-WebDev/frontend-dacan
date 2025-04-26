@@ -7,7 +7,7 @@ const AboutFooter = () => {
   return (
     <section className="relative overflow-hidden text-white py-20 px-4 text-center">
       <img
-        src="/aboutfooter.jpg"
+        src="/aboutfooter.webp"
         className="absolute w-full h-full -z-10 inset-0 object-cover"
         alt=""
       />
