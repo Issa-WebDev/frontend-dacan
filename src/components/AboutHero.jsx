@@ -13,7 +13,7 @@ const AboutHero = () => {
       {/* Overlay */}
       <div className="absolute -z-5 inset-0 bg-[#1a316b]/90"></div>
 
-      <div className="max-w-7xl mx-auto flex px-4 flex-col items-start justify-center space-y-6">
+      <div className="max-w-7xl mx-auto flex flex-col items-start justify-center space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
           {t("aboutHero.title")}
         </h1>

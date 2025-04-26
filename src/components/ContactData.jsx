@@ -9,7 +9,7 @@ const ContactData = () => {
     {
       icon: <FiPhone size={32} className="text-[#FFA500] mx-auto mb-2" />,
       title: t("contactData.phone"),
-      text: "+225 07 0123 4567",
+      text: "+225 07 4940 2913",
       alt: (
         <a
           href="tel:+2250701234567"

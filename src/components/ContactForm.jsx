@@ -60,59 +60,75 @@ const ContactForm = () => {
         </div>
 
         {/* Colonne droite */}
-        <form className="grid gap-4 bg-white p-6 rounded-lg shadow">
-          <div>
-            <label className="block text-sm">{t("contactForm.fullName")}</label>
-            <input
-              type="text"
-              placeholder={t("contactForm.fullNamePlaceholder")}
-              className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
-            />
-          </div>
+        <div>
+          <form className="grid gap-4 bg-white p-6 rounded-lg shadow">
+            <div>
+              <label className="block text-sm">
+                {t("contactForm.fullName")}
+              </label>
+              <input
+                type="text"
+                required
+                placeholder={t("contactForm.fullNamePlaceholder")}
+                className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+              />
+            </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+              <div>
+                <label className="block text-sm">
+                  {t("contactForm.email")}
+                </label>
+                <input
+                  type="email"
+                  required
+                  placeholder={t("contactForm.emailPlaceholder")}
+                  className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                />
+              </div>
+              <div>
+                <label className="block text-sm">
+                  {t("contactForm.phone")}
+                </label>
+                <input
+                  type="tel"
+                  required
+                  placeholder={t("contactForm.phonePlaceholder")}
+                  className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                />
+              </div>
+            </div>
             <div>
-              <label className="block text-sm">{t("contactForm.email")}</label>
+              <label className="block text-sm">
+                {t("contactForm.subject")}
+              </label>
               <input
-                type="email"
-                placeholder={t("contactForm.emailPlaceholder")}
+                type="text"
+                required
+                placeholder={t("contactForm.subjectPlaceholder")}
                 className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
               />
             </div>
             <div>
-              <label className="block text-sm">{t("contactForm.phone")}</label>
-              <input
-                type="tel"
-                placeholder={t("contactForm.phonePlaceholder")}
+              <label className="block text-sm">
+                {t("contactForm.message")}
+              </label>
+              <textarea
+                placeholder={t("contactForm.messagePlaceholder")}
                 className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
-              />
+                rows={4}
+              ></textarea>
             </div>
-          </div>
-          <div>
-            <label className="block text-sm">{t("contactForm.subject")}</label>
-            <input
-              type="text"
-              placeholder={t("contactForm.subjectPlaceholder")}
-              className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
-            />
-          </div>
-          <div>
-            <label className="block text-sm">{t("contactForm.message")}</label>
-            <textarea
-              placeholder={t("contactForm.messagePlaceholder")}
-              className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
-              rows={4}
-            ></textarea>
-          </div>
-          <div>
-            <button
-              type="submit"
-              className="bg-[#1a316b] text-white cursor-pointer px-4 py-2 rounded hover:bg-[#FFA500] transition"
-            >
-              {t("contactForm.sendMessage")}
-            </button>
-          </div>
-        </form>
+            <div>
+              <button
+                type="submit"
+                className="bg-[#1a316b] text-white cursor-pointer px-4 py-2 rounded hover:bg-[#FFA500] transition"
+              >
+                {t("contactForm.sendMessage")}
+              </button>
+            </div>
+          </form>
+        </div>
       </section>
     </div>
   );

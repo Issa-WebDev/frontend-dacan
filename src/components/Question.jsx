@@ -25,7 +25,7 @@ const Question = () => {
 
   return (
     <section className="py-16 px-4 text-center bg-white">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto">
         <h2 className="md:text-3xl text-2xl font-bold text-[#1a316b] mb-4">
           {t("faq.title")}
         </h2>
