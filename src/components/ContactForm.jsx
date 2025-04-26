@@ -126,10 +126,9 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder={t("contactForm.fullNamePlaceholder")}
-                className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                className="w-full p-3 border mt-1 border-gray-200 text-[16px] text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
               />
             </div>
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
               <div>
                 <label className="block text-sm">
@@ -142,7 +141,7 @@ const ContactForm = () => {
                   onChange={handleChange}
                   required
                   placeholder={t("contactForm.emailPlaceholder")}
-                  className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                  className="w-full p-3 border mt-1 border-gray-200 text-[16px] text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                 />
               </div>
               <div>
@@ -156,7 +155,7 @@ const ContactForm = () => {
                   onChange={handleChange}
                   required
                   placeholder={t("contactForm.phonePlaceholder")}
-                  className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                  className="w-full p-3 border mt-1 border-gray-200 text-[16px] text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                 />
               </div>
             </div>
@@ -172,7 +171,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder={t("contactForm.subjectPlaceholder")}
-                className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                className="w-full p-3 border mt-1 border-gray-200 text-[16px] text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
               />
             </div>
 
@@ -186,7 +185,7 @@ const ContactForm = () => {
                 onChange={handleChange}
                 required
                 placeholder={t("contactForm.messagePlaceholder")}
-                className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                className="w-full p-3 border mt-1 border-gray-200 text-[16px] text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                 rows={4}
               ></textarea>
             </div>

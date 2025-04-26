@@ -94,7 +94,7 @@ const PersonalQuote = () => {
                   required
                   value={formData.fullName}
                   onChange={handleChange}
-                  className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                  className="w-full p-3 border mt-1 border-gray-200 text-[16px] text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                   placeholder={t("personalQuote.yourName")}
                 />
               </div>
@@ -107,7 +107,7 @@ const PersonalQuote = () => {
                   name="companyName"
                   value={formData.companyName}
                   onChange={handleChange}
-                  className="w-full p-3 border border-gray-200 text-sm text-gray-500 rounded mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                  className="w-full p-3 border border-gray-200 text-[16px] text-gray-500 rounded mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                   placeholder={t("personalQuote.yourCompany")}
                 />
               </div>
@@ -123,7 +123,7 @@ const PersonalQuote = () => {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full p-3 border border-gray-200 text-sm text-gray-500 rounded mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                  className="w-full p-3 border border-gray-200 text-[16px] text-gray-500 rounded mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                   placeholder={t("personalQuote.emailPlaceholder")}
                 />
               </div>
@@ -137,7 +137,7 @@ const PersonalQuote = () => {
                   required
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full p-3 border border-gray-200 text-sm text-gray-500 rounded mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                  className="w-full p-3 border border-gray-200 text-[16px] text-gray-500 rounded mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                   placeholder={t("personalQuote.phonePlaceholder")}
                 />
               </div>
@@ -149,7 +149,7 @@ const PersonalQuote = () => {
               <select
                 value={selectedService}
                 onChange={handleSelect}
-                className="w-full p-3 border border-gray-200 text-sm text-gray-500 rounded mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                className="w-full p-3 border border-gray-200 text-[16px] text-gray-500 rounded mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
               >
                 <option value="">{t("personalQuote.selectService")}</option>
                 {[
@@ -180,7 +180,7 @@ const PersonalQuote = () => {
                 name="description"
                 value={formData.description}
                 onChange={handleChange}
-                className="w-full p-3 border border-gray-200 text-sm text-gray-500 rounded-md mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
+                className="w-full p-3 border border-gray-200 text-[16px] text-gray-500 rounded-md mt-1 focus:border-none focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                 rows="4"
                 placeholder={t("personalQuote.descriptionPlaceholder")}
               />
