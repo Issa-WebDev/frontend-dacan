@@ -9,11 +9,13 @@ import "./i18n"; // pour init i18n
 import Footer from "./components/Footer";
 import ScrollToTop from "../ScrollToTop";
 import ScrollToTopBtn from "./components/ScrollToTopBtn";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
+      <ToastContainer />
       <Navbar />
       <Routes>
         <Route path="/" element={<Accueil />} />

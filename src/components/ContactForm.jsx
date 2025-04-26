@@ -1,9 +1,55 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FaClock, FaUsers, FaFacebookF } from "react-icons/fa";
+import axios from "axios";
+import { toast } from "react-toastify"; // Import du toast
+import "react-toastify/dist/ReactToastify.css"; // Import du CSS
 
 const ContactForm = () => {
   const { t } = useTranslation();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+  const [loading, setLoading] = useState(false); // Nouveau : état de chargement
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      const response = await axios.post("http://localhost:5000/api/contact", {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        subject: formData.subject,
+        message: formData.message,
+      });
+
+      if (response.status === 200) {
+        toast.success(t("contactForm.successToast"));
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      }
+    } catch (error) {
+      console.error("Erreur lors de l'envoi :", error);
+      toast.error(t("contactForm.errorToast"));
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="bg-gray-100 px-4 py-16">
@@ -49,7 +95,8 @@ const ContactForm = () => {
               </h3>
               <a
                 href="https://www.facebook.com/dacanci"
-                target="_blink"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 text-blue-700"
               >
                 <FaFacebookF />
@@ -61,13 +108,19 @@ const ContactForm = () => {
 
         {/* Colonne droite */}
         <div>
-          <form className="grid gap-4 bg-white p-6 rounded-lg shadow">
+          <form
+            onSubmit={handleSubmit}
+            className="grid gap-4 bg-white p-6 rounded-lg shadow"
+          >
             <div>
               <label className="block text-sm">
                 {t("contactForm.fullName")}
               </label>
               <input
                 type="text"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
                 required
                 placeholder={t("contactForm.fullNamePlaceholder")}
                 className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
@@ -81,6 +134,9 @@ const ContactForm = () => {
                 </label>
                 <input
                   type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                   placeholder={t("contactForm.emailPlaceholder")}
                   className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
@@ -92,39 +148,78 @@ const ContactForm = () => {
                 </label>
                 <input
                   type="tel"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
                   required
                   placeholder={t("contactForm.phonePlaceholder")}
                   className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                 />
               </div>
             </div>
+
             <div>
               <label className="block text-sm">
                 {t("contactForm.subject")}
               </label>
               <input
                 type="text"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
                 required
                 placeholder={t("contactForm.subjectPlaceholder")}
                 className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
               />
             </div>
+
             <div>
               <label className="block text-sm">
                 {t("contactForm.message")}
               </label>
               <textarea
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
                 placeholder={t("contactForm.messagePlaceholder")}
                 className="w-full p-3 border mt-1 border-gray-200 text-sm text-gray-500 rounded-md focus:outline-none focus:ring-2 focus:ring-[#1a316b]"
                 rows={4}
               ></textarea>
             </div>
+
             <div>
               <button
                 type="submit"
-                className="bg-[#1a316b] text-white cursor-pointer px-4 py-2 rounded hover:bg-[#FFA500] transition"
+                disabled={loading}
+                className="bg-[#1a316b] flex justify-center items-center gap-2 text-white cursor-pointer px-4 py-2 rounded hover:bg-[#FFA500] transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {t("contactForm.sendMessage")}
+                {loading ? (
+                  <>
+                    <svg
+                      className="animate-spin h-5 w-5 mr-2 text-white"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                        fill="none"
+                      ></circle>
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
+                      ></path>
+                    </svg>
+                    {t("contactForm.sending")}
+                  </>
+                ) : (
+                  t("contactForm.sendMessage")
+                )}
               </button>
             </div>
           </form>

@@ -224,6 +224,8 @@
     "description": "Description du besoin",
     "descriptionPlaceholder": "Veuillez décrire vos besoins en détail...",
     "getQuote": "Obtenir un devis",
+     "successMessage": "Votre demande a été envoyée avec succès !",
+    "errorMessage": "Une erreur est survenue. Veuillez réessayer.",
     "serviceOptions": {
       "transport": "Transport & Logistique",
       "spareParts": "Pièces détachées pour véhicules",
@@ -316,6 +318,9 @@
     "subjectPlaceholder": "De quoi s'agit-il ?",
     "message": "Message",
     "messagePlaceholder": "Comment pouvons-nous vous aider ?",
-    "sendMessage": "Envoyer le message"
+    "sendMessage": "Envoyer le message",
+    "sending": "Envoi...",
+    "successToast": "Message envoyé avec succès !",
+    "errorToast": "Échec de l'envoi du message. Veuillez réessayer."
   }
 }
