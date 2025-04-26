@@ -25,13 +25,16 @@ const ContactForm = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5000/api/contact", {
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone,
-        subject: formData.subject,
-        message: formData.message,
-      });
+      const response = await axios.post(
+        "https://dacan-contact-backend.onrender.com/api/contact",
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          subject: formData.subject,
+          message: formData.message,
+        }
+      );
 
       if (response.status === 200) {
         toast.success(t("contactForm.successToast"));

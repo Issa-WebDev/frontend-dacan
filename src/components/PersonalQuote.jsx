@@ -29,11 +29,14 @@ const PersonalQuote = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await fetch(`http://localhost:5000/api/quote`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...formData, selectedService }),
-      });
+      const res = await fetch(
+        `https://dacan-devis-backend.onrender.com/api/quote`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ ...formData, selectedService }),
+        }
+      );
 
       if (res.ok) {
         toast.success(t("personalQuote.successMessage"));
